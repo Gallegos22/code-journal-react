@@ -17,6 +17,7 @@ const dataKey = 'code-journal-data';
 function readData(): Data {
   let data: Data;
   const localData = localStorage.getItem(dataKey);
+  //what is dataKey?
   if (localData) {
     data = JSON.parse(localData);
   } else {
