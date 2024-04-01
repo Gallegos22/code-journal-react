@@ -1,16 +1,13 @@
-import { Outlet } from 'react-router-dom';
-
 export function ViewEntries() {
   return (
     <div>
       <nav>
-        <div>
+        <div className='view-entries'>
           <ul>
             <li>dummy</li>
           </ul>
         </div>
       </nav>
-      <Outlet />
     </div>
   );
 }

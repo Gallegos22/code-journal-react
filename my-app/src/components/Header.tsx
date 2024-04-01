@@ -5,8 +5,8 @@ export function Header() {
   return (
     <div>
       <h1 className="header">Code Journal</h1>
-      <Link to="/about" className="title">
-        ViewEntries
+      <Link to="/" className="title">
+        Entries
       </Link>
       <Outlet />
     </div>

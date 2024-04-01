@@ -15,7 +15,7 @@ export function UnControlledForm() {
   };
   return (
     <div>
-      <form className="hidden" onSubmit={handleSubmit} id="entryForm">
+      <form onSubmit={handleSubmit} id="entryForm">
         <div className="row margin-bottom-1">
           <div className="column-half">
             <img
